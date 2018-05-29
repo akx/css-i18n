@@ -1,5 +1,12 @@
 {
-  "dependencies": {
+  "name": "css-i18n",
+  "version": "0.1.0",
+  "description": "Mappings of CSS properties, keywords and colors to various languages! It's silly!",
+  "main": "index.js",
+  "repository": "https://github.com/akx/css-i18n",
+  "author": "Aarni Koskela <akx@iki.fi>",
+  "license": "MIT",
+  "devDependencies": {
     "css-color-keywords": "^1.0.0",
     "mdn-data": "^1.1.3"
   }
