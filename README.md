@@ -22,4 +22,15 @@ Use `make` (or `node scripts/generate-base.js`) to generate new base data.
 
 TODO: Updating translations when the base data is updated.
 
+
+Acknowledgements
+----------------
+
+* `data/sv.json` has been seeded from @johnie's repos ([j1], [j2]),
+  licensed under the MIT license. Tack!
+
+
+
+[j1]: https://github.com/johnie/swedish-css-properties
+[j2]: https://github.com/johnie/swedish-css-values
 [ietf]: https://en.wikipedia.org/wiki/IETF_language_tag
