@@ -9,7 +9,7 @@ function sortedMapFrom(arraylike, value='') {
 function extractKeywordsFromSyntax(syntax) {
 	syntax = syntax.replace(/<.+?>/g, '');  // remove placeholders
 	const words = new Set();
-	const wordRe = /[a-z-]+/g;
+	const wordRe = /[a-z-]+/gi;
 	let match;
 	while ((match = wordRe.exec(syntax)) !== null) {
 		words.add(match[0]);
