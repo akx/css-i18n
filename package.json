@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "css-color-keywords": "^1.0.0",
+    "mdn-data": "^1.1.3"
+  }
+}
